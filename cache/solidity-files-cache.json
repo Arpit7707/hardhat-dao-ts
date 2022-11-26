@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/arpit/hh-fcc/hardhat-dao/contracts/Box.sol": {
-      "lastModificationDate": 1669306851427,
-      "contentHash": "fcd24f105d9279227d2a5de484703d3a",
+      "lastModificationDate": 1669469057571,
+      "contentHash": "47a57f74428e81cdeedce293063670ea",
       "sourceName": "contracts/Box.sol",
       "solcConfig": {
         "version": "0.8.17",
@@ -1643,8 +1643,8 @@
       ]
     },
     "/home/arpit/hh-fcc/hardhat-dao/contracts/governance_standard/Timeock.sol": {
-      "lastModificationDate": 1669401869999,
-      "contentHash": "0dace8f8375e83aeff71117a17503bda",
+      "lastModificationDate": 1669470170401,
+      "contentHash": "cc393aa89160a75f25049635a8312786",
       "sourceName": "contracts/governance_standard/Timeock.sol",
       "solcConfig": {
         "version": "0.8.17",

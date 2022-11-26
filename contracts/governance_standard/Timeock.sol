@@ -1,5 +1,6 @@
 //We want to wait for a new vote to be executed
 //Give time to users to "get out" if they don't like governance update
+//owns the governance process
 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -11,5 +12,5 @@ contract Timeock is TimelockController{
       // proposers is the list of addresses that can propose
       // executors is the list of addresses that can execute
     constructor(uint256 minDelay, address[] memory proposers, address[] memory executors, address admin)
-     TimelockController(minDelay, proposers, executors, 0x0000000000000000000000000000000000000000){ }
+     TimelockController(minDelay, proposers, executors, admin){ }
 }
