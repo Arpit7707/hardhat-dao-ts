@@ -1,7 +1,7 @@
 import "hardhat-deploy";
 import "@nomicslab/hardhat-ethers";
 import "@typechain/hardhat";
-import {HardhatUserConfig} from "hardhat/config";
+import { HardhatUserConfig } from "hardhat/config";
 
 /** @type import('hardhat/config').HardhatUserConfig */
 // module.exports = {
@@ -13,23 +13,20 @@ const config: HardhatUserConfig = {
   networks: {
     hardhat: {
       chainId: 31337,
-      allowUnlimitedContractSize: true
+      allowUnlimitedContractSize: true,
     },
     localhost: {
       chainId: 31337,
-      allowUnlimitedContractSize: true
-
-    }
+      allowUnlimitedContractSize: true,
+    },
   },
   solidity: "0.8.17",
 
   namedAccounts: {
-    deployer : {
+    deployer: {
       default: 0,
-    }
-  }
-}
-
-
+    },
+  },
+};
 
 export default config;
